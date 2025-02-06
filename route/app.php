@@ -13,5 +13,8 @@ use think\facade\Route;
 // 获取当前计数
 Route::get('/api/count', 'index/getCount');
 
+//dd
+Route::get('/api/dd','index/dd');
+
 // 更新计数，自增或者清零
 Route::post('/api/count', 'index/updateCount');
